@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './Footer.js';
+import QuoteBox from "./QuoteBox.js";
+import Row from 'react-bootstrap/Row'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Row className="App h-100 justify-content-center">
+      <Row className="h-75 justify-content-center">
+        <QuoteBox />
+      </Row>
+      <Row className="h-25">
+        <Footer />
+      </Row>
+    </Row>
   );
 }
 

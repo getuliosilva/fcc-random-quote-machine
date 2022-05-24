@@ -1,9 +1,9 @@
 import Row from 'react-bootstrap/Row'
 
-function QuoteAuthor() {
+function QuoteAuthor(props) {
   return (
     <Row id="author" className="justify-content-center">
-      Albert Einstein
+      {props.quoteAuthor}
     </Row>
   );
 }

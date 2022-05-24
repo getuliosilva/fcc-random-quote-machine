@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
     border: 0px;
     padding: 0px;
@@ -10,13 +11,25 @@ body {
 
 #text {
     font-family: 'Permanent Marker', cursive;
-    font-size: 24px;
+    font-size: 28px;
 }
 
-#author {
+.title {
     margin-top: 0px;
 }
 
 .border {
     border: 2px solid;
+}
+
+.buttons {
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin: 50px;
+}
+
+.link-inline {
+    padding: 5px;
+    width: auto;
 }
